@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(1, 1, 14);
+}
+
+
+#espaço{
+    height: 96vh;
+    background-color: darkblue;
+    background-image: url(imagens/espaco.jpg);
+    background-position: center center;
+    position: relative;
+    background-size: cover;
+    background-attachment: scroll;   
+}
+
+.astronauta{
+    background-image: url(imagens/astronauta.png);
+    background-size: 100% 100%;
+    background-position: center center;
+    position: relative;
+    height: 200px;
+    width:200px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
