@@ -16,32 +16,32 @@
 }
 
 body{
-    text-align: left;
-    
-    
+    text-align: left;  
+    min-height: 100vh;
+    background-color: darkgray;
 }
 
 header{
     background-color: black;
     color: white;
     text-align: center;
-
 }
 
 header > h1{
     font-family: var(--fonte-destaque);
     font-weight: bold;
-    font-size: 5em;
+    font-size: 4em;
     padding: 30px;
+    padding-top: 50px;
+    font-variant: small-caps;
 }
 
 header > p{
     text-decoration: none;
     color: white;
     font-weight: bold;
-    padding-bottom: 30px;
-    font-size: 1.3em;
-     
+    padding-bottom: 50px;
+    font-size: 1.3em;   
 }
 
 a{
@@ -51,6 +51,32 @@ a{
 a:hover{
     text-decoration: underline;
     font-weight: bold;
+}
+
+section{
+    text-align: justify;
+    font-size: 3vw;
+    font-family: var(--fonte-verso);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+
+}
+
+.branco{
+    background-color: white;
+    color: black;
+}
+
+.imagem{
+    background-color: rgb(43, 42, 42);
+    color: white;
+}
+
+.imagem > p{
+    background-color: rgb(68, 67, 67);
+    width: 400px;
 }
 
 footer{
